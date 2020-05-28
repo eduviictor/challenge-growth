@@ -12,7 +12,7 @@ function Pagination({ page, numberPages, prev, next }: PaginationProps) {
   return (
     <PaginationWrapper>
       <LeftIcon onClick={() => prev()} />
-      {`${page} de ${numberPages}`}
+      {`${page} of ${numberPages}`}
       <RightIcon onClick={() => next()} />
     </PaginationWrapper>
   );

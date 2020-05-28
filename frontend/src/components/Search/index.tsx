@@ -14,11 +14,11 @@ function Search({ handleChange, value }: SearchProps) {
         type="text"
         name="search"
         id="search"
-        placeholder="Pesquisar"
+        placeholder="Search"
         value={value}
         onChange={(e) => handleChange(e)}
       />
-      <label htmlFor="search">Pesquisar</label>
+      <label htmlFor="search">Search</label>
     </SearchWrapper>
   );
 }

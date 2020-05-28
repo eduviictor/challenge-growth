@@ -13,7 +13,7 @@ export const PostWrapper = styled.div`
 `;
 
 export const PostTitle = styled.h2`
-  text-align: justify;
+  text-align: left;
   padding: 4px;
   text-transform: capitalize;
   font-size: 18px;

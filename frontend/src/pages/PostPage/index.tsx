@@ -27,7 +27,7 @@ function PostPage({ posts }: PostPageProps) {
               <small>{post.company}</small>
             </div>
             <button onClick={() => history.goBack()} type="button">
-              Voltar
+              Come back
             </button>
           </PostPageInfo>
         </PostPageContent>

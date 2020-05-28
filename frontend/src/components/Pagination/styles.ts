@@ -11,13 +11,15 @@ export const PaginationWrapper = styled.div`
 `;
 
 export const LeftIcon = styled(LeftArrow)`
-  width: 20px;
+  width: 25px;
   cursor: pointer;
   color: #9b9b9b;
+  margin: 0 5px;
 `;
 
 export const RightIcon = styled(RightArrow)`
-  width: 20px;
+  width: 25px;
   cursor: pointer;
   color: #9b9b9b;
+  margin: 0 5px;
 `;
