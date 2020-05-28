@@ -9,7 +9,8 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Open Sans', sans-serif;
   }
 
-  body {
+  body, html {
+    width: 100%;
     background: #333333;
   }
 `;

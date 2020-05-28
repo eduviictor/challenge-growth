@@ -5,7 +5,11 @@ export const PostPageWrapper = styled.main`
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
-  width: 600px;
+  max-width: 60%;
+
+  @media (max-width: 768px) {
+    max-width: 90%;
+  }
 `;
 
 export const PostPageContent = styled.div`
