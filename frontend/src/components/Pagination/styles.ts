@@ -7,14 +7,17 @@ export const PaginationWrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  color: #9b9b9b;
 `;
 
 export const LeftIcon = styled(LeftArrow)`
   width: 20px;
   cursor: pointer;
+  color: #9b9b9b;
 `;
 
 export const RightIcon = styled(RightArrow)`
   width: 20px;
   cursor: pointer;
+  color: #9b9b9b;
 `;

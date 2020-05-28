@@ -10,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: hsl(225, 100%, 98%);
+    background: #333333;
   }
 `;
 
