@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  frontend:
+    container_name: frontend
+    networks:
+      - app-network
+    build: "./frontend"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    command: sh -c "yarn build && yarn start"
+
+  backend:
+    container_name: backend
+    networks:
+      - app-network
+    build: "./backend"
+    ports:
+      - "3001:3001"
+    command: sh -c "yarn build && yarn start"
+
+networks:
+  app-network:
+    driver: bridge

@@ -3,7 +3,7 @@ import axios from 'axios';
 import { PostProps } from '../components/Post';
 
 const api = axios.create({
-  baseURL: 'https://challenge-growth.herokuapp.com',
+  baseURL: process.env.apiUrl || 'http://localhost:3001',
 });
 
 export const getPosts = async (): Promise<Array<PostProps>> => {
