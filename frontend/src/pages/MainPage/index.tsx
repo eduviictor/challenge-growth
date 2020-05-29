@@ -37,7 +37,7 @@ function Main({ posts }: MainProps) {
   useEffect(() => {
     setPostsFilter(posts);
     setNumberPages(Math.ceil(posts.length / postsPerPage));
-  }, []);
+  }, [posts]);
 
   function prev(): void {
     if (page !== 1) {
